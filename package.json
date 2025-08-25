@@ -1,6 +1,6 @@
 {
   "name": "smartbuy",
-  "homepage": "https://AyushB27.github.io/SmartBuy/",
+  "homepage": "https://AyushB27.github.io/Smart-Buy/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
