@@ -1,0 +1,160 @@
+{
+  "project_name": "SMARTBUY",
+  "project_description": "A price tracking app for electronics",
+  "products": [
+    {
+      "product_type": "Smartphone",
+      "product_name": "Samsung Galaxy S24 Ultra",
+      "model": "SM-S928B/DS",
+      "websites": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com/samsung-galaxy-s24-ultra",
+          "price": 1299.99
+        },
+        {
+          "name": "Best Buy",
+          "url": "https://www.bestbuy.com/site/samsung-galaxy-s24-ultra",
+          "price": 1299.00
+        },
+        {
+          "name": "Official Samsung Store",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s24-ultra/",
+          "price": 1399.99
+        }
+      ]
+    },
+    {
+      "product_type": "Laptop",
+      "product_name": "Apple MacBook Air",
+      "model": "M3 Chip (13-inch)",
+      "websites": [
+        {
+          "name": "Apple Store",
+          "url": "https://www.apple.com/shop/buy-mac/macbook-air/13-inch-m3",
+          "price": 1099.00
+        },
+        {
+          "name": "B&H Photo Video",
+          "url": "https://www.bhphotovideo.com/c/product/1812847-REG/apple_mrxp3ll_a_13_macbook_air_space.html",
+          "price": 1049.00
+        },
+        {
+          "name": "Walmart",
+          "url": "https://www.walmart.com/c/apple-macbook-air-m3",
+          "price": 1099.00
+        }
+      ]
+    },
+    {
+      "product_type": "Headphones",
+      "product_name": "Sony WH-1000XM5",
+      "model": "WH1000XM5/B",
+      "websites": [
+        {
+          "name": "Sony Store",
+          "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5",
+          "price": 349.99
+        },
+        {
+          "name": "Crutchfield",
+          "url": "https://www.crutchfield.com/p_1581000XM5/Sony-WH-1000XM5.html",
+          "price": 348.00
+        },
+        {
+          "name": "Target",
+          "url": "https://www.target.com/p/sony-wh-1000xm5-wireless-noise-canceling-headphones",
+          "price": 349.99
+        }
+      ]
+    },
+    {
+      "product_type": "Washing Machine",
+      "product_name": "LG 7kg 5 Star Inverter Touch panel Fully-Automatic Front Load Washing Machine",
+      "model": "FHM1207AD6",
+      "websites": [
+        {
+          "name": "Amazon India",
+          "url": "https://www.amazon.in/LG-Inverter-Fully-Automatic-FHM1207AD6-Graphite/dp/B08V5QJTZ5",
+          "price": 28990.00
+        },
+        {
+          "name": "Flipkart",
+          "url": "https://www.flipkart.com/lg-7-kg-5-star-inverter-fully-automatic-front-load-washing-machine-with-in-built-heater-fhb1207s-fhb1207ad6-graphite/p/itmd5f7253503f1f",
+          "price": 29490.00
+        },
+        {
+          "name": "LG Brand Store",
+          "url": "https://www.lg.com/in/washing-machines/lg-fhm1207ad6",
+          "price": 35990.00
+        }
+      ]
+    },
+    {
+      "product_type": "Refrigerator",
+      "product_name": "Samsung 322 L 3 Star Inverter Frost-Free Double Door Refrigerator",
+      "model": "RT34T4513S9/HL",
+      "websites": [
+        {
+          "name": "Amazon India",
+          "url": "https://www.amazon.in/Samsung-322-Inverter-Frost-Free-Refrigerator/dp/B08M3Q1G6Q",
+          "price": 35500.00
+        },
+        {
+          "name": "Flipkart",
+          "url": "https://www.flipkart.com/samsung-322-l-frost-free-double-door-3-star-inverter-refrigerator/p/itm5a40a8a7c2a7f",
+          "price": 36000.00
+        },
+        {
+          "name": "Samsung India",
+          "url": "https://www.samsung.com/in/refrigerators/double-door-rt34t4513s9-hl/",
+          "price": 38990.00
+        }
+      ]
+    },
+    {
+      "product_type": "Air Conditioner",
+      "product_name": "Daikin 1.5 Ton 5 Star Inverter Split AC",
+      "model": "FTKF50TV16U",
+      "websites": [
+        {
+          "name": "Amazon India",
+          "url": "https://www.amazon.in/Daikin-Inverter-FTKF50TV16U-Split-White/dp/B08W1M2S7K",
+          "price": 42000.00
+        },
+        {
+          "name": "Flipkart",
+          "url": "https://www.flipkart.com/daikin-1-5-ton-5-star-inverter-split-ac-white/p/itm6c3a8e9e73b7f",
+          "price": 42500.00
+        },
+        {
+          "name": "Daikin India",
+          "url": "https://www.daikinindia.com/products/residential-ac/split-ac/1-5-ton/5-star/ftkf50tv16u",
+          "price": 45900.00
+        }
+      ]
+    },
+    {
+      "product_type": "Microwave Oven",
+      "product_name": "Bajaj 20L Solo Microwave Oven",
+      "model": "1701 MT",
+      "websites": [
+        {
+          "name": "Amazon India",
+          "url": "https://www.amazon.in/Bajaj-20L-Solo-Microwave-Oven/dp/B08P12D1T6",
+          "price": 4500.00
+        },
+        {
+          "name": "Flipkart",
+          "url": "https://www.flipkart.com/bajaj-20-l-solo-microwave-oven-1701-mt-black/p/itm22c1b7e682d3e",
+          "price": 4600.00
+        },
+        {
+          "name": "Bajaj Electricals",
+          "url": "https://shop.bajajelectricals.com/microwave-ovens/bajaj-20l-solo-microwave-oven-1701-mt",
+          "price": 5100.00
+        }
+      ]
+    }
+  ]
+}

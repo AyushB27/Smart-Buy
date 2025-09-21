@@ -5,7 +5,7 @@ import './login.css';
 const Login = () => {
     const navigate = useNavigate();
     const toDashboard = () => {
-        navigate("/dash");
+        navigate("/deals");
     };
     return (
         <div className='login-container'>
