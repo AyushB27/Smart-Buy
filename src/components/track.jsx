@@ -2,6 +2,8 @@ import React from "react";
 import { ShoppingCart } from "lucide-react";
 import "./info.css";
 
+
+//THis is a change
 const ProductInfoCard = ({ product }) => {
   if (!product) {
     return null;
