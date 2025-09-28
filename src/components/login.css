@@ -1,79 +1,181 @@
-.login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f2f5;
-    font-family: 'Arial', sans-serif;
+/* Page background */
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+  font-family: "Segoe UI", sans-serif;
+  padding: 1rem;
 }
 
-.img-container {
-    background-color: #fff;
-    width: 50%;
-    height: 100%;
-    /* You can add a background image here */
-    /* background-image: url('your-image-url.jpg'); */
-    background-size: cover;
-    background-position: center;
+/* Card container */
+.auth-card {
+  display: flex;
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 850px;
+  min-height: 500px; /* 👈 keeps image size stable */
+  transition: min-height 0.3s ease;
 }
 
-.form-container {
-    background-color: #fff;
-    padding: 3rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    display: flex;
+/* Left (form) */
+.auth-left {
+  flex: 1;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-header {
+  margin-bottom: 1.5rem;
+}
+
+.logo-box {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(to right, #6366f1, #ec4899);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.auth-left h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.auth-subtext {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* Inputs */
+.auth-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #f9fafb;
+  font-size: 0.95rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.auth-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+  outline: none;
+  background: #fff;
+}
+
+/* Button */
+.auth-btn {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #6366f1, #ec4899);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+.auth-btn:hover {
+  opacity: 0.95;
+}
+
+.auth-btn:active {
+  transform: scale(0.98);
+}
+
+/* Toggle text */
+.auth-toggle {
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+.auth-toggle span {
+  color: #6366f1;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth-toggle span:hover {
+  text-decoration: underline;
+}
+
+/* Right (image) */
+.auth-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;
+}
+
+.auth-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .auth-card {
     flex-direction: column;
-    align-items: center;
+    min-height: auto;
+    max-width: 400px;
+  }
+
+  .auth-right {
+    display: none; /* hide image on mobile */
+  }
+
+  .auth-left {
+    padding: 2rem 1.5rem;
+  }
+}
+/* Existing CSS above stays same... just adding animation part */
+
+/* Animation wrapper */
+.auth-form-wrapper {
+  position: relative;
+  min-height: 260px; /* keeps consistent height */
+  overflow: hidden;
 }
 
-.form-container h2 {
-    font-size: 2rem;
-    color: #1a1a1a;
-    margin-bottom: 2rem;
+/* Both forms share same space */
+.auth-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  pointer-events: none;
 }
 
-.form-container form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+/* When active */
+.auth-form.active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
-.form-container input {
-    width: 100%;
-    padding: 0.75rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-}
-
-.login-btn {
-    padding: 0.75rem;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-bottom: 1rem;
-}
-
-.login-btn:hover {
-    background-color: #0056b3;
-}
-
-.signup-link {
-    text-align: center;
-    color: #007bff;
-    text-decoration: none;
-    font-size: 0.9rem;
-    transition: color 0.3s ease;
-}
-
-.signup-link:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}

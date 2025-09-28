@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Philips Air Fryer",
+    "image": "https://philips.com/airfryer.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 149.99,
+        "url": "https://www.amazon.com/dp/example-airfryer"
+      },
+      "Flipkart": {
+        "price": 145.99,
+        "url": "https://www.flipkart.com/example-airfryer"
+      },
+      "Croma": {
+        "price": 152.49,
+        "url": "https://www.croma.com/example-airfryer"
+      }
+    }
+  },
+  {
+    "title": "Ikea Wooden Coffee Table",
+    "image": "https://ikea.com/coffeetable.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 199.99,
+        "url": "https://www.amazon.com/dp/example-coffeetable"
+      },
+      "Flipkart": {
+        "price": 189.99,
+        "url": "https://www.flipkart.com/example-coffeetable"
+      },
+      "Croma": {
+        "price": 205.49,
+        "url": "https://www.croma.com/example-coffeetable"
+      }
+    }
+  },
+  {
+    "title": "Dyson V11 Vacuum Cleaner",
+    "image": "https://dyson.com/vacuum.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 599.99,
+        "url": "https://www.amazon.com/dp/example-vacuum"
+      },
+      "Flipkart": {
+        "price": 579.99,
+        "url": "https://www.flipkart.com/example-vacuum"
+      },
+      "Croma": {
+        "price": 610.49,
+        "url": "https://www.croma.com/example-vacuum"
+      }
+    }
+  },
+  {
+    "title": "Bajaj Microwave Oven",
+    "image": "https://bajaj.com/microwave.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 129.99,
+        "url": "https://www.amazon.com/dp/example-microwave"
+      },
+      "Flipkart": {
+        "price": 125.49,
+        "url": "https://www.flipkart.com/example-microwave"
+      },
+      "Croma": {
+        "price": 133.99,
+        "url": "https://www.croma.com/example-microwave"
+      }
+    }
+  },
+  {
+    "title": "Usha Ceiling Fan",
+    "image": "https://usha.com/fan.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 49.99,
+        "url": "https://www.amazon.com/dp/example-fan"
+      },
+      "Flipkart": {
+        "price": 47.99,
+        "url": "https://www.flipkart.com/example-fan"
+      },
+      "Croma": {
+        "price": 52.49,
+        "url": "https://www.croma.com/example-fan"
+      }
+    }
+  },
+  {
+    "title": "Prestige Pressure Cooker",
+    "image": "https://prestige.com/cooker.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 39.99,
+        "url": "https://www.amazon.com/dp/example-cooker"
+      },
+      "Flipkart": {
+        "price": 37.49,
+        "url": "https://www.flipkart.com/example-cooker"
+      },
+      "Croma": {
+        "price": 41.99,
+        "url": "https://www.croma.com/example-cooker"
+      }
+    }
+  },
+  {
+    "title": "Philips LED Smart Bulb",
+    "image": "https://philips.com/bulb.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 19.99,
+        "url": "https://www.amazon.com/dp/example-bulb"
+      },
+      "Flipkart": {
+        "price": 18.49,
+        "url": "https://www.flipkart.com/example-bulb"
+      },
+      "Croma": {
+        "price": 21.99,
+        "url": "https://www.croma.com/example-bulb"
+      }
+    }
+  }
+]

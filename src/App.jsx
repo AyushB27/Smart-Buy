@@ -1,14 +1,17 @@
 // import DealsSection from './components/deals';
 import Deals from './components/deals';
-import Login from './components/landing'; 
+import Landing from './components/landing'; 
 import ProductList from './components/ProductInfoCard';
+import Login from './components/login';
+import "./index.css";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Login />} />
+                <Route path="/" element={<Landing />} />
+                <Route path="/login" element={<Login/>} />
                 <Route path = "/deals" element = {<Deals/>} />
                 <Route path='/list' element={<ProductList/>} />
             </Routes>

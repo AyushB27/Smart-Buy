@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Levi's Men's Slim Fit Jeans",
+    "image": "https://m.media-amazon.com/images/I/81aQ8zQ7V7L._AC_UL1500_.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 59.99,
+        "url": "https://www.amazon.com/dp/example-jeans"
+      },
+      "Flipkart": {
+        "price": 57.49,
+        "url": "https://www.flipkart.com/example-jeans"
+      },
+      "Myntra": {
+        "price": 61.99,
+        "url": "https://www.myntra.com/example-jeans"
+      }
+    }
+  },
+  {
+    "title": "Nike Air Force 1 Sneakers",
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/af1.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 89.99,
+        "url": "https://www.amazon.com/dp/example-sneakers"
+      },
+      "Flipkart": {
+        "price": 92.49,
+        "url": "https://www.flipkart.com/example-sneakers"
+      },
+      "Myntra": {
+        "price": 87.99,
+        "url": "https://www.myntra.com/example-sneakers"
+      }
+    }
+  },
+  {
+    "title": "Adidas Men's Running T-Shirt",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/men-tshirt.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 29.99,
+        "url": "https://www.amazon.com/dp/example-tshirt"
+      },
+      "Flipkart": {
+        "price": 27.49,
+        "url": "https://www.flipkart.com/example-tshirt"
+      },
+      "Myntra": {
+        "price": 31.99,
+        "url": "https://www.myntra.com/example-tshirt"
+      }
+    }
+  },
+  {
+    "title": "Ray-Ban Aviator Sunglasses",
+    "image": "https://assets.ray-ban.com/is/image/RayBan/aviator.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 149.99,
+        "url": "https://www.amazon.com/dp/example-sunglasses"
+      },
+      "Flipkart": {
+        "price": 145.49,
+        "url": "https://www.flipkart.com/example-sunglasses"
+      },
+      "Myntra": {
+        "price": 152.99,
+        "url": "https://www.myntra.com/example-sunglasses"
+      }
+    }
+  },
+  {
+    "title": "Puma Men's Sports Jacket",
+    "image": "https://images.puma.com/jacket.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 69.99,
+        "url": "https://www.amazon.com/dp/example-jacket"
+      },
+      "Flipkart": {
+        "price": 65.49,
+        "url": "https://www.flipkart.com/example-jacket"
+      },
+      "Myntra": {
+        "price": 72.99,
+        "url": "https://www.myntra.com/example-jacket"
+      }
+    }
+  },
+  {
+    "title": "H&M Women's Summer Dress",
+    "image": "https://lp.hm.com/dress.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 39.99,
+        "url": "https://www.amazon.com/dp/example-dress"
+      },
+      "Flipkart": {
+        "price": 37.49,
+        "url": "https://www.flipkart.com/example-dress"
+      },
+      "Myntra": {
+        "price": 41.99,
+        "url": "https://www.myntra.com/example-dress"
+      }
+    }
+  },
+  {
+    "title": "Casio Men's Analog Watch",
+    "image": "https://casio.com/watch.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 119.99,
+        "url": "https://www.amazon.com/dp/example-watch"
+      },
+      "Flipkart": {
+        "price": 115.49,
+        "url": "https://www.flipkart.com/example-watch"
+      },
+      "Myntra": {
+        "price": 123.99,
+        "url": "https://www.myntra.com/example-watch"
+      }
+    }
+  }
+]

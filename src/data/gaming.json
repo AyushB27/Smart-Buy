@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Sony PlayStation 5",
+    "image": "https://sony.com/ps5.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 499.99,
+        "url": "https://www.amazon.com/dp/example-ps5"
+      },
+      "Flipkart": {
+        "price": 489.99,
+        "url": "https://www.flipkart.com/example-ps5"
+      },
+      "Croma": {
+        "price": 505.49,
+        "url": "https://www.croma.com/example-ps5"
+      }
+    }
+  },
+  {
+    "title": "Xbox Series X",
+    "image": "https://xbox.com/seriesx.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 499.99,
+        "url": "https://www.amazon.com/dp/example-xbox"
+      },
+      "Flipkart": {
+        "price": 479.99,
+        "url": "https://www.flipkart.com/example-xbox"
+      },
+      "Croma": {
+        "price": 510.49,
+        "url": "https://www.croma.com/example-xbox"
+      }
+    }
+  },
+  {
+    "title": "Nintendo Switch OLED",
+    "image": "https://nintendo.com/switch.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 349.99,
+        "url": "https://www.amazon.com/dp/example-switch"
+      },
+      "Flipkart": {
+        "price": 339.99,
+        "url": "https://www.flipkart.com/example-switch"
+      },
+      "Croma": {
+        "price": 355.49,
+        "url": "https://www.croma.com/example-switch"
+      }
+    }
+  },
+  {
+    "title": "Razer BlackWidow V3 Keyboard",
+    "image": "https://razer.com/keyboard.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 129.99,
+        "url": "https://www.amazon.com/dp/example-keyboard"
+      },
+      "Flipkart": {
+        "price": 125.49,
+        "url": "https://www.flipkart.com/example-keyboard"
+      },
+      "Croma": {
+        "price": 133.99,
+        "url": "https://www.croma.com/example-keyboard"
+      }
+    }
+  },
+  {
+    "title": "Logitech G502 Gaming Mouse",
+    "image": "https://logitech.com/mouse.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 59.99,
+        "url": "https://www.amazon.com/dp/example-mouse"
+      },
+      "Flipkart": {
+        "price": 57.49,
+        "url": "https://www.flipkart.com/example-mouse"
+      },
+      "Croma": {
+        "price": 61.99,
+        "url": "https://www.croma.com/example-mouse"
+      }
+    }
+  },
+  {
+    "title": "HyperX Cloud II Gaming Headset",
+    "image": "https://hyperx.com/headset.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 99.99,
+        "url": "https://www.amazon.com/dp/example-headset"
+      },
+      "Flipkart": {
+        "price": 95.99,
+        "url": "https://www.flipkart.com/example-headset"
+      },
+      "Croma": {
+        "price": 103.49,
+        "url": "https://www.croma.com/example-headset"
+      }
+    }
+  },
+  {
+    "title": "Elgato HD60 X Capture Card",
+    "image": "https://elgato.com/capture.jpg",
+    "prices": {
+      "Amazon": {
+        "price": 179.99,
+        "url": "https://www.amazon.com/dp/example-capture"
+      },
+      "Flipkart": {
+        "price": 172.99,
+        "url": "https://www.flipkart.com/example-capture"
+      },
+      "Croma": {
+        "price": 185.49,
+        "url": "https://www.croma.com/example-capture"
+      }
+    }
+  }
+]
